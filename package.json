@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js --exec babel-node",
-    "build": " babel src -d dist && npc src/views dist/views ",
+    "build": " babel src -d dist && npc src/views dist/views && ncp src/public dist/public",
     "start": "node dist/index.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
