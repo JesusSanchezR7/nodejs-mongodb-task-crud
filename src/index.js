@@ -1,4 +1,4 @@
-import app from "./app";
+import app from "./App";
 import "./database";
 import { PORT } from "./config"
 
